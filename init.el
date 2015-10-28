@@ -54,3 +54,10 @@
 (global-anzu-mode +1)
 (global-set-key (kbd "M-%") 'anzu-query-replace)
 (global-set-key (kbd "C-M-%") 'anzu-query-replace-regexp)
+
+;;
+;; theme
+;;
+(load-theme 'misterioso t)
+(setq default-frame-alist
+      (append (list '(cursor-color . "white")) default-frame-alist))
