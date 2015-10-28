@@ -69,3 +69,11 @@
   (set-face-font
    'default
    "-unknown-Ubuntu Mono-normal-normal-normal-*-22-*-*-*-m-0-iso10646-1"))
+;;
+;; line number
+;;
+(when window-system
+  ;;デフォルトで linum-mode を有効にする
+  (global-linum-mode t)
+  ;;3桁分のスペースを確保
+  (setq linum-format "%3d"))
