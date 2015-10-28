@@ -45,3 +45,9 @@
 (el-get-bundle yasnippet)
 (require 'yasnippet)
 (yas-global-mode 1)
+
+;;
+;; anzu
+;;
+(el-get-bundle anzu)
+(global-anzu-mode +1)
