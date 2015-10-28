@@ -69,6 +69,7 @@
   (set-face-font
    'default
    "-unknown-Ubuntu Mono-normal-normal-normal-*-22-*-*-*-m-0-iso10646-1"))
+
 ;;
 ;; line number
 ;;
@@ -77,3 +78,10 @@
   (global-linum-mode t)
   ;;3桁分のスペースを確保
   (setq linum-format "%3d"))
+
+;;
+;; 画面の要素を消す
+;;
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
