@@ -17,3 +17,9 @@
 ;;
 (el-get-bundle auto-complete)
 (ac-config-default)
+
+;;
+;; helm
+;;
+(el-get-bundle helm)
+(require 'helm-config)
