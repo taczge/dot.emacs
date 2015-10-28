@@ -61,3 +61,11 @@
 (load-theme 'misterioso t)
 (setq default-frame-alist
       (append (list '(cursor-color . "white")) default-frame-alist))
+
+;;
+;; font size
+;;
+(when window-system
+  (set-face-font
+   'default
+   "-unknown-Ubuntu Mono-normal-normal-normal-*-22-*-*-*-m-0-iso10646-1"))
