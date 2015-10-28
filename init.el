@@ -11,3 +11,9 @@
        "https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
     (goto-char (point-max))
     (eval-print-last-sexp)))
+
+;;
+;; auto-complete
+;;
+(el-get-bundle auto-complete)
+(ac-config-default)
