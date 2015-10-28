@@ -38,3 +38,10 @@
 ;; key bind
 ;;
 (global-set-key (kbd "C-h") 'delete-backward-char)
+
+;;
+;; yasnippet
+;;
+(el-get-bundle yasnippet)
+(require 'yasnippet)
+(yas-global-mode 1)
