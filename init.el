@@ -104,3 +104,8 @@
 (setq auto-save-buffers-enhanced-interval 0.5)
 ;; Wrote メッセージを抑制
 (setq auto-save-buffers-enhanced-quiet-save-p t)
+
+;;
+;; yes/no の入力を y/n に
+;;
+(defalias 'yes-or-no-p 'y-or-n-p)
