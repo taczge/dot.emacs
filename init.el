@@ -68,7 +68,7 @@
 (when window-system
   (set-face-font
    'default
-   "-unknown-Ubuntu Mono-normal-normal-normal-*-22-*-*-*-m-0-iso10646-1"))
+   "-unknown-Ubuntu Mono-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1"))
 
 ;;
 ;; line number
