@@ -92,3 +92,15 @@
 (el-get-bundle quickrun)
 (require 'quickrun)
 (global-set-key (kbd "C-c c") 'quickrun)
+
+;;
+;; 自動保存
+;;
+(el-get-bundle elpa:auto-save-buffers-enhanced)
+(require 'auto-save-buffers-enhanced)
+(auto-save-buffers-enhanced t)
+(setq auto-save-buffers-enhanced-include-regexps '(".+"))
+(setq auto-save-buffers-enhanced-exclude-regexps '("\\.el$"))
+(setq auto-save-buffers-enhanced-interval 0.5)
+;; Wrote メッセージを抑制
+(setq auto-save-buffers-enhanced-quiet-save-p t)
