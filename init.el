@@ -85,3 +85,10 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+
+;;
+;; quickrun
+;;
+(el-get-bundle quickrun)
+(require 'quickrun)
+(global-set-key (kbd "C-c c") 'quickrun)
