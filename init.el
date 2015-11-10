@@ -109,3 +109,8 @@
 ;; yes/no の入力を y/n に
 ;;
 (defalias 'yes-or-no-p 'y-or-n-p)
+
+;;
+;; 起動後に *scratch* バッファを出す
+;;
+(setq inhibit-startup-message t)
