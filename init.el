@@ -114,3 +114,9 @@
 ;; 起動後に *scratch* バッファを出す
 ;;
 (setq inhibit-startup-message t)
+
+;;
+;; magit
+;;
+(el-get-bundle magit)
+(require 'magit)
