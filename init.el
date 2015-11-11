@@ -39,6 +39,14 @@
 ;; key bind
 ;;
 (global-set-key (kbd "C-h") 'delete-backward-char)
+(defun other-window-or-split ()
+  "Split window horizontally if frame does not has tow windows."
+  (interactive)
+  (when (one-window-p) (split-window-horizontally))
+  (other-window 1))
+(global-set-key (kbd "C-t") 'other-window-or-split)
+(define-key dired-mode-map (kbd "C-t") 'other-window)
+
 
 ;;
 ;; yasnippet
