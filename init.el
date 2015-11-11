@@ -24,6 +24,10 @@
 (el-get-bundle helm)
 (require 'helm-config)
 (helm-mode 1)
+(define-key global-map (kbd "M-y")     'helm-show-kill-ring)
+(define-key global-map (kbd "C-c j")   'helm-mini)
+(define-key helm-map (kbd "C-h") 'delete-backward-char)
+(define-key helm-find-files-map (kbd "C-h") 'delete-backward-char)
 
 ;;
 ;; helm-swoop
