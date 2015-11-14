@@ -132,3 +132,9 @@
 ;;
 (el-get-bundle magit)
 (require 'magit)
+
+;;
+;; flycheck
+;;
+(el-get-bundle flycheck)
+(add-hook 'python-mode-hook (lambda () (flycheck-mode 1)))
