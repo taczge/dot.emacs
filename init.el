@@ -138,3 +138,9 @@
 ;;
 (el-get-bundle flycheck)
 (add-hook 'python-mode-hook (lambda () (flycheck-mode 1)))
+
+;;
+;; sqlplus
+;;
+(el-get-bundle sql)
+(require 'sql)
