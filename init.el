@@ -152,5 +152,12 @@
 (require 'gradle-mode)
 (gradle-mode 1)
 
+;;
+;; groovy
+;;
+(el-get-bundle groovy-mode)
+(require 'groovy-mode)
+(add-to-list 'auto-mode-alist '("\.gradle$" . groovy-mode))
+
 ;; バックアップファイルを作らない
 (setq backup-inhibited t)
