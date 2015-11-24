@@ -144,3 +144,10 @@
 ;;
 (el-get-bundle sql)
 (require 'sql)
+
+;;
+;; gradle
+;;
+(el-get-bundle gradle-mode)
+(require 'gradle-mode)
+(gradle-mode 1)
