@@ -151,3 +151,6 @@
 (el-get-bundle gradle-mode)
 (require 'gradle-mode)
 (gradle-mode 1)
+
+;; バックアップファイルを作らない
+(setq backup-inhibited t)
