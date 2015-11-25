@@ -161,3 +161,9 @@
 
 ;; バックアップファイルを作らない
 (setq backup-inhibited t)
+
+;;
+;; etags-u
+;;
+(el-get-bundle etags-u)
+(require 'etags-u)
