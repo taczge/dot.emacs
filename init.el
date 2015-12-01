@@ -163,12 +163,6 @@
 (setq backup-inhibited t)
 
 ;;
-;; etags-u
-;;
-(el-get-bundle etags-u)
-(require 'etags-u)
-
-;;
 ;; org
 ;;
 ;; 見出しの余分な*を消す
