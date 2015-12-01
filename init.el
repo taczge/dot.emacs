@@ -167,3 +167,9 @@
 ;;
 (el-get-bundle etags-u)
 (require 'etags-u)
+
+;;
+;; org
+;;
+;; 見出しの余分な*を消す
+(setq org-hide-leading-stars t)
